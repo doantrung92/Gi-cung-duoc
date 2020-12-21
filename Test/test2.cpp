@@ -13,7 +13,7 @@ void upperCase (char s[]){
 int main (){
 	char str[100];
 	printf ("Nhap chuoi: ");
-	scanf ("%[^\n]",str);
+	gets (str);
 	upperCase(str);
 	printf ("upperCase: %s", str);
 	}
